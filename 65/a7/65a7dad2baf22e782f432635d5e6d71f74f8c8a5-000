@@ -2,3 +2,4 @@
 
 Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (10 November 2026)
 
+- Pas de subdivision : le maillage livre est dense, interpolant, decoupe en composants detailles (demande de Matthieu, 10 November 2026). (10 November 2026) <!-- rule:69f29176ad21 -->

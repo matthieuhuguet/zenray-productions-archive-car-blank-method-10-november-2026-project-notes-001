@@ -44,3 +44,59 @@
 - Project: car-blank-method-10-november-2026; kind: prompt. (10 November 2026, 12:42:53 +0100)
 
 > Prompt 2 (10 November 2026) : pousser les details du modele a 0.999 par rapport a la ref initiale. La forme initiale est bonne mais elle manque de pique (trop adoucie). Continuer d'iterer jusqu'a la forme parfaite, puis diviser en components : pas uniquement la forme poly, plutot une version ultra detaillee SANS subdivision, simplement des components plus complexes. Creer les outils necessaires. (10 November 2026, 12:42:53 +0100)
+
+## 10 November 2026, 12:52:32 +0100 : Prompt
+
+<!-- feedback-event:fcad3200d153ff81a04f55608ec776e6275424bb8572d60104714b62cf9f5b2b (10 November 2026, 12:52:32 +0100) -->
+- Project: car-blank-method-10-november-2026; kind: prompt. (10 November 2026, 12:52:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/9f60abf3-0c2f-475e-8ef7-607c3a691ab9.jsonl. (10 November 2026, 12:52:32 +0100)
+
+> [Image: original 2508x732, displayed at 2000x584. Multiply coordinates by 1.25 to map to original image.] (10 November 2026, 12:52:32 +0100)
+
+## 10 November 2026, 12:52:55 +0100 : Standing rule
+
+<!-- feedback-event:1b08f8566a92eeeac90c6ad661e128a83db45c513bd8108669c2551412c4bfbe (10 November 2026, 12:52:55 +0100) -->
+- Project: car-blank-method-10-november-2026; kind: rule. (10 November 2026, 12:52:55 +0100)
+
+> Pas de subdivision : le maillage livre est dense, interpolant, decoupe en composants detailles (demande de Matthieu, 10 November 2026). (10 November 2026, 12:52:55 +0100)
+
+## 10 November 2026, 12:53:23 +0100 : Iteration
+
+<!-- feedback-event:481492988b615584e6aca957db224b9de6d13f6d76996ff3477f1af52b65df00 (10 November 2026, 12:53:23 +0100) -->
+- Project: car-blank-method-10-november-2026; kind: iteration. (10 November 2026, 12:53:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/9f60abf3-0c2f-475e-8ef7-607c3a691ab9.jsonl. (10 November 2026, 12:53:23 +0100)
+
+> La voiture existe en version V_008 : 51 composants sans aucune subdivision, 17 722 quads, 0 triangle. Le 0,999 n'est pas atteint : le recouvrement moyen des silhouettes avec les six vues est de 0,956, et la planche de référence interdit elle-même de dépasser environ 0,978. (10 November 2026, 12:53:23 +0100)
+>
+> Ce plafond se mesure sur la référence seule. Deux vues opposées doivent donner la même silhouette en miroir, or elles ne se recouvrent qu'à 0,981 (côtés), 0,967 (dessus et dessous) et 0,918 (avant et arrière). Aucun objet 3D unique ne peut coller à deux silhouettes qui se contredisent ; le pavillon, par exemple, fait 85 de demi-largeur vu de dessus et 74 vu de face. (10 November 2026, 12:53:23 +0100)
+>
+> ## La méthode (10 November 2026, 12:53:23 +0100)
+>
+> - **Treillis de contrôle :** 18 stations × 13 rails par demi-voiture, lus sur les zooms quadrillés des six vues. Toutes les cotes vivent dans un seul fichier JSON par version. (10 November 2026, 12:53:23 +0100)
+> - **Maillage dense :** rééchantillonné par des splines qui passent exactement par les points et gardent les arêtes vives. C'est ce qui remplace la subdivision, qui arrondissait tout. (10 November 2026, 12:53:23 +0100)
+> - **Composants :** panneaux avec jeu et rebord, vitres en retrait, roues à gorges, disques de frein, lame avant, ailettes. (10 November 2026, 12:53:23 +0100)
+> - **Juge :** recouvrement des silhouettes et distance des contours par vue, sur les composants livrés. (10 November 2026, 12:53:23 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 12:53:23 +0100)
+> |---|---|---| (10 November 2026, 12:53:23 +0100)
+> | Un protocole neuf, sans ZenRay Meshes | Oui | Aucun fichier de ce skill n'a été ouvert ; tous les outils sont écrits dans l'atelier | (10 November 2026, 12:53:23 +0100)
+> | Topologie parfaite | Oui pour les quads | 17 722 quads, 0 triangle, 0 arête non manifold, valence 5 au plus ; les 1 984 arêtes ouvertes sont les rebords des panneaux | (10 November 2026, 12:53:23 +0100)
+> | Plus de piqué, sans subdivision | Oui | Aucun modificateur dans le fichier Blender, arêtes vives marquées par construction | (10 November 2026, 12:53:23 +0100)
+> | Divisé en composants détaillés | En partie | 51 pièces ; diffuseur, dessous, jantes et feux restent sommaires | (10 November 2026, 12:53:23 +0100)
+> | 0,999 par rapport à la référence | Non | 0,956 mesuré (0,905 au départ), plafond 0,978 | (10 November 2026, 12:53:23 +0100)
+> | Détails intérieurs (lignes, facettes) à 0,999 | Pas vérifié | Le juge ne mesure encore que les silhouettes | (10 November 2026, 12:53:23 +0100)
+> | Synthèse HTML et skill | Non | Reportés tant que tu n'as pas validé la méthode | (10 November 2026, 12:53:23 +0100)
+>
+> Tout est dans l'atelier : (10 November 2026, 12:53:23 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Sheets/compare_V_008.png](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Sheets/compare_V_008.png) (10 November 2026, 12:53:23 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Sheets/compare_V_008_colors.png](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Sheets/compare_V_008_colors.png) (10 November 2026, 12:53:23 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Sheets/wire_V_008.png](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Sheets/wire_V_008.png) (10 November 2026, 12:53:23 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Out/car_V_008.blend](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Out/car_V_008.blend) (10 November 2026, 12:53:23 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Out/car_V_008.obj](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Out/car_V_008.obj) (10 November 2026, 12:53:23 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/README.md](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/README.md) (10 November 2026, 12:53:23 +0100)
+>
+> Pour modifier toi-même : les points sont dans [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Spec/V_008.json](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Spec/V_008.json) (`"station,rail": [X, Y, Z]`), le jeu et le rebord en tête de [/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Scripts/Components.py](/Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Scripts/Components.py). Une itération complète se relance par : (10 November 2026, 12:53:23 +0100)
+>
+> ```bash (10 November 2026, 12:53:23 +0100)
+> /Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026/Scripts/Run.sh V_008 components (10 November 2026, 12:53:23 +0100)
+> ``` (10 November 2026, 12:53:23 +0100)
