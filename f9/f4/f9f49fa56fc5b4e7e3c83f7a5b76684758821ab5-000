@@ -1,0 +1,39 @@
+{
+ "schemaVersion": 1,
+ "projectId": "car-blank-method-10-november-2026",
+ "scannedAt": "2026-11-10T11:34:03.134Z",
+ "conversations": [
+  {
+   "projectId": "car-blank-method-10-november-2026",
+   "lines": 23,
+   "work": 9,
+   "prompts": 0,
+   "first": "2026-11-10T11:20:48.197Z",
+   "last": "2026-11-10T11:33:08.217Z",
+   "strength": "strong",
+   "conversationId": "claude:9f60abf3-0c2f-475e-8ef7-607c3a691ab9",
+   "provider": "claude",
+   "sessionId": "9f60abf3-0c2f-475e-8ef7-607c3a691ab9",
+   "title": "3D Fable 5.2",
+   "updatedAt": "2026-11-10T11:33:19.869Z",
+   "bytes": 275606,
+   "boundProject": "car-blank-method-10-november-2026"
+  },
+  {
+   "projectId": "car-blank-method-10-november-2026",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-10T11:28:06.062Z",
+   "last": "2026-11-10T11:28:06.062Z",
+   "strength": "weak",
+   "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "provider": "claude",
+   "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "title": "zenray meshes v4",
+   "updatedAt": "2026-11-10T11:33:37.993Z",
+   "bytes": 280469,
+   "boundProject": "zenray-meshes"
+  }
+ ]
+}

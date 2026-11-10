@@ -1,0 +1,23 @@
+# car-blank-method-10-november-2026 : project feedback, append only (10 November 2026, 12:20:47 +0100)
+
+## 10 November 2026, 12:20:47 +0100 : Log
+
+<!-- feedback-event:b44935430cdc038cd499196cbeeb3c678dd0fb8ac77e00a90b0f74725abac1c8 (10 November 2026, 12:20:47 +0100) -->
+- Project: car-blank-method-10-november-2026; kind: log. (10 November 2026, 12:20:47 +0100)
+
+> Project initialized: Car Blank Method (voiture 3D, protocole neuf). Workshop: /Users/zenray/.claude/tmp/tmp-car-blank-method-10-november-2026. (10 November 2026, 12:20:47 +0100)
+
+## 10 November 2026, 12:18:58 +0100 : Prompt
+
+<!-- feedback-event:dd36dcd820ae876096d6a5a9c25579e742f7a96f789c60af3a11dd08b68210d1 (10 November 2026, 12:18:58 +0100) -->
+- Project: car-blank-method-10-november-2026; kind: prompt. (10 November 2026, 12:18:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/9f60abf3-0c2f-475e-8ef7-607c3a691ab9.jsonl. (10 November 2026, 12:18:58 +0100)
+
+> Depuis la ref de la voiture, tu vas créer un tout nouveau protocole en mode totalement autonome. Tu vas essayer de reproduire en 3D la voiture avec une topologie parfaite. Sauf que tu n'as pas le droit d'utiliser ZenRay Meshes et tu dois uniquement utiliser des nouvelles méthodes par toi. En parallèle, ZenRay Meshes fonctionne sur un autre thread. Et à terme, on verra qui a réussi à faire la meilleure méthode. Mais toi, tu pars d'une carte blanche. Et on créera le skill uniquement une fois que tu as validé la méthode. Donc tu reprends la ref des voitures et tu détermines une nouvelle méthodologie complètement blanche. Et tu essaies d'itérer pour reproduire le modèle parfaitement. /Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png En fait, la seule consigne, c'est modéliser cette voiture en 3D avec une topologie parfaite, tu as carte blanche. Mais tu n'as pas le droit d'utiliser les méthodes de ZenRay Meshes. Tu n'as même pas le droit de le lire en soi, tu as juste besoin de commencer directement. Tu peux utiliser Blender ou Houdini, ou même directement Python, peu importe. Je préfère te donner le moins d'instructions possible pour que tu reproduises la voiture selon ta méthode qui te semble la plus efficace à date. (10 November 2026, 12:18:58 +0100)
+
+## 10 November 2026, 12:20:58 +0100 : Prompt
+
+<!-- feedback-event:f83eb8b0261f0990f86c9cf3178f1e807648fad442ac1cb0f22b404a7c839f7a (10 November 2026, 12:20:58 +0100) -->
+- Project: car-blank-method-10-november-2026; kind: prompt. (10 November 2026, 12:20:58 +0100)
+
+> Prompt 1 (10 November 2026) : depuis la ref de la voiture (06_Car_6views_25-October-2026.png), creer un tout nouveau protocole en autonomie totale pour reproduire la voiture en 3D avec une topologie parfaite. Interdit d'utiliser ou de lire ZenRay Meshes (il tourne sur un autre thread, on comparera). Carte blanche : Blender, Houdini ou Python. Le skill ne se cree qu'une fois la methode validee. Iterer jusqu'a reproduire le modele parfaitement. (10 November 2026, 12:20:58 +0100)
